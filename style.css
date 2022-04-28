@@ -1,0 +1,351 @@
+body {
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Container styling */
+
+#container {
+  background-color: #767676;
+  padding: 20px 20px;
+  height: 40px;
+}
+.first-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.first-box ul {
+  display: flex;
+  flex-direction:row ;
+  /* align-items: center; */
+}
+.first-box ul li {
+  margin: 15px;  
+}
+.first-box ul li a{
+  color: white ;
+  font-size: 20px;
+}
+.first-box img {
+  margin-bottom: 30px;
+  width: 160px;
+}
+
+/* 2ND CONTAINER */
+#second-container{
+  padding: 20px 100px;
+  background-image: url(./helloquence-61189-min-1-2000x1335.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 600px; 
+}
+.first_textbox {
+  text-align: justify;
+  margin-top: 90px;
+}
+.first_textbox h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+.first_textbox p {
+  font-size: 25px;
+}
+
+.first_textbox button {
+  width: 230px;
+  height: 60px;
+  background-color:#9c0808;
+  border-radius: 3px;
+  border:none;
+}
+.first_textbox button a {
+  color: white;
+  font-size: 25px;
+}
+
+
+/* Third container */
+
+
+#third-container {
+  padding: 30px 130px;
+  text-align: justify;
+}
+.whoweare h3 {
+  font-size: 25px;
+  font-weight: 250px;
+}
+.whoweare p {
+  font-size: 18px;
+}
+.whoweare button {
+  width: 230px;
+  height: 60px;
+  background-color:#9c0808;
+  border-radius: 3px;
+  border:none;
+  margin-top: 50px;
+}
+.whoweare button a {
+  color: white;
+  font-size: 18px;
+}
+.whoweare {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whoweare img {
+  width: 600px;
+  height: 600px;
+}
+
+
+/* Fourth_Container styling */
+
+#fourth_container {
+  padding: 20px 100px;
+  background-image: url(./background4.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 270px;
+}
+.whatwedobest {
+  color: white;
+  text-align: center;
+}
+.whatwedobest h2 {
+  font-size:80px;
+  font-weight: 250px;
+  margin-bottom: 20px;
+}
+.whatwedobest p {
+  font-size: 22px;
+}
+
+/* FIFTH CONTAINER STYLING */
+
+#fifth_container {
+  padding: 20px 150px;
+}
+.departmental ul {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 185px;
+}
+.departmental ul a {
+  color: #9c0808;
+  font-size: 22px;
+}
+
+/* .mbri-growing-chart{
+  background-image: url(./img/mbri-growing-chart.svg);
+  background-repeat: no-repeat;
+} */
+
+
+/* Sixth_container styling */
+
+
+#sixth_container {
+  background-color: #465052;
+  width: auto;
+  height: 400px;
+  padding-bottom: 150px;
+}
+4545.milestone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.milestone h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.milestone p {
+  color: white;
+  font-size: 23px;
+  padding-left: 100px;
+  margin-bottom: 15px;
+}
+.hr-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .hr-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+.hr-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.milestone hr {
+  width: 1150px;
+  height: 10px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+/* Seventh_Container */
+
+#seventh_container {
+  padding: 20px 150px;
+}
+.faculty h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.faculty ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 70px;
+  font-size: 20px;
+}
+
+/* Eighth_container styling */
+
+#eighth_container {
+  padding: 5px 150px;
+  background-image: url(./background4.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 270px;
+}
+.solution h3 {
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+/* ninth styling */
+
+.bank_lists h2{
+  text-align: center;
+}
+.bank_lists ul{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+/* tenth-container */
+
+#tenth-container {
+  
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(./background21.jpg);
+  top: 0pt;
+  left: 0pt;
+  width: 1028pt;
+  height: 676.075px;
+  
+
+  
+}
+.fantasticteam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fantastic h2 {
+text-align: center;
+color: white;
+font-size: 40px;
+}
+/* .gabrielteam {
+  /* margin: 20px 20px; */
+  /* padding:80px 90px; */
+  /* border: 1px solid red; */
+  /* width: 70px;
+  height: 70px; */ 
+
+#eleventh {
+  background-color: #cccccc;
+  padding: 90px 150px;
+  width: auto;
+  height: 80px; 
+}
+.request {
+  text-align: center;
+}
+.request h2 {
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #232323;
+  margin: 5px 5px;
+}
+.request button {
+  width: 200px;
+  height: 80px;
+  background-color:#9c0808;
+  border-radius: 3px;
+  border:none;
+  margin-left: 50px;
+}
+.request input {
+  padding: 20px 25px;
+  color: #f5f5f5;
+  width: 330px;
+  height: 38px;
+  font-size: 19px;
+  border-style: none;
+}
+.request button a {
+  color: white;
+  font-size: 25px;
+}
+.requesttwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* last_body styling */
+
+#last_body {
+  background-color: #232323;
+  color: #f5f5f5;
+}
+.lastB {
+  display: flex;
+  flex-direction: row;
+  row-gap: 185px;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  font-size: 25px;
+  margin-right: 40px;
+  margin-left: 60px;
+  margin-bottom:5px;
+}
+
+#footer {
+  background-color: #232323;
+  width: auto;
+  height: 50px;
+  color: #cccccc;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
